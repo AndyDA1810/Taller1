@@ -42,5 +42,11 @@ h5 {
   margin-top: 2rem;
 }
 .Series-container {
-  border: 1px solid red;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  img {
+    height: 300px;
+    object-fit: cover;
+  }
 }
