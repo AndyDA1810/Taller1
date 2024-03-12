@@ -34,11 +34,13 @@ h5 {
   text-align: center;
   color: cornflowerblue;
 }
-#Hoobies,
-#Series-container {
+#Hoobies {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   margin-top: 2rem;
+}
+.Series-container {
+  border: 1px solid red;
 }
