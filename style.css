@@ -44,7 +44,10 @@ h5 {
 .Series-container {
   display: flex;
   gap: 2rem;
-  align-items: center;
+
+  .card{
+    width: 450px;
+  }
   img {
     height: 300px;
     object-fit: cover;
